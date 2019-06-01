@@ -18,6 +18,6 @@ Before training the classification model, we have to transform raw data from aud
 We then need to extract meaningful features from audio files. To classify our audio clips, we will choose 5 features, i.e. Mel-Frequency Cepstral Coefficients, Spectral Centroid, Zero Crossing Rate, Chroma Frequencies, Spectral Roll-off. All the features are then appended into a .csv file so that classification algorithms can be used.
 
 ### Classification
-Once the features have been extracted, we can use existing classification algorithms to classify the songs into different genres. You can either use the spectrogram images directly for classification or can extract the features and use the classification models on them.
+Once the features have been extracted, we can use existing classification algorithms to classify the songs into different genres. We can either use the spectrogram images directly for classification or can extract the features and use the classification models on them.
 
 The processed audio files are stored in 'data.csv' file.

@@ -20,6 +20,4 @@ We then need to extract meaningful features from audio files. To classify our au
 ### Classification
 Once the features have been extracted, we can use existing classification algorithms to classify the songs into different genres. You can either use the spectrogram images directly for classification or can extract the features and use the classification models on them.
 
-Either way, a lot of experimentation can be done in terms of models. You are free to experiment and improve your results. Using a CNN model (on the spectrogram images) gives a better accuracy and its worth a try.
-
 The processed audio files are stored in 'data.csv' file.
